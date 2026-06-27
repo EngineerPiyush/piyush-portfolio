@@ -3,10 +3,10 @@
 error_reporting(0);
 ini_set('display_errors', 0);
 
-$db_host = "sql310.infinityfree.com";
-$db_user = "if0_42268634";
-$db_pass = "PiyushProfile1";
-$db_name = "if0_42268634_contact_form"; // Replace with your actual database name
+$db_host = "";
+$db_user = "";
+$db_pass = "";
+$db_name = ""; // Replace with your actual database name
 
 // 2. The "@" symbol suppresses any immediate connection warning popup
 $conn = @new mysqli($db_host, $db_user, $db_pass, $db_name);
